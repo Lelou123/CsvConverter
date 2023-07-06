@@ -6,12 +6,19 @@ namespace CvsConverter.Model;
 
 public class CsvFileReader<T> where T : class
 {
-    private readonly string[] _expectedColumns;
+    private readonly string[]? _expectedColumns;
+
+    public CsvFileReader()
+    {
+        _expectedColumns = null;
+    }
 
     public CsvFileReader(string[] expectedColumns)
     {
         _expectedColumns = expectedColumns;
     }
+
+    
 
     public async Task<List<T>> ReadCsvFileAsync(IFormFile file)
     {
