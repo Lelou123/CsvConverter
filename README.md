@@ -1,36 +1,38 @@
 # CsvConverter
 
-
-Bem-vindo ao meu repositório conversor de arquivos CSV.
-
-### Linguagens, Frameworks e APIs
-C#
-
-- C#
-- .Net 7.0
-
-O objetivo deste projeto é permitir que você faça o upload de arquivos CSV e os converta em um objeto de sua escolha, especificando a ordem esperada das colunas, caso deseje. Dessa forma, os dados do seu arquivo CSV serão convertidos em um objeto.
-
-A ordem das colunas no arquivo CSV deve corresponder à estrutura do objeto que você está tentando mapear para que o mapeamento ocorra corretamente. Sinta-se à vontade para modificar o código para o seu próprio uso.
+## Bem-vindo ao CsvConverter!
 
 
+### O que é o CsvConverter?
+O CsvConverter é um repositório dedicado a um conversor de arquivos CSV, desenvolvido para facilitar o processo de conversão e mapeamento de dados. Com essa ferramenta, você poderá fazer o upload de arquivos CSV e convertê-los em objetos personalizados, tudo de forma simples e intuitiva.
+
+### Tecnologias Utilizadas
+- Linguagem de Programação: C#
+- Framework: .Net 7.0
+- CsvHelper
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## Principais Recursos
+Faça o upload de arquivos CSV.
+Converta os dados do CSV em um objeto personalizado.
+Especifique a ordem esperada das colunas para um mapeamento preciso.
+Modifique o código conforme suas necessidades e requisitos.
 
 
+### Como Utilizar
+1 Clone este repositório em sua máquina local.
+2 Abra o projeto em sua IDE preferida.
+3 Personalize o código de acordo com suas necessidades.
+4 xecute o aplicativo e faça o upload do arquivo CSV.
+5 Aguarde enquanto o arquivo é convertido em um objeto.
 
 
-Welcome to my repository converter of csv files
+### Contribuição
+Você está convidado a contribuir para o desenvolvimento contínuo do CsvConverter. Sinta-se à vontade para enviar pull requests, relatar problemas e compartilhar suas ideias. Juntos, podemos tornar essa ferramenta ainda mais poderosa e útil!
+
+## Licença
+Este projeto está licenciado sob a MIT License. Sinta-se à vontade para utilizar e modificar o código conforme necessário.
+
+## Seja bem-vindo ao CsvConverter e aproveite a experiência de conversão de arquivos CSV de forma rápida e eficiente!
 
 
-### Languages, Frameworks and APi's
-
-- C#
-
-- .Net 7.0
-
-
-The objective of this project is for you to be able to upload CSV files and convert them into an object of your choice, specifying the expected order of columns if desired. This way, the data from your CSV file will be converted into an object.
-
-The order of the columns in the CSV file must match the structure of the object you are trying to map in order for the mapping to occur correctly. Feel free to modify the code for your own use
